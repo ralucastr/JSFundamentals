@@ -47,14 +47,14 @@ console.log(`${zoo[2].name} now has ${zoo[2].foodStock} units of ${zoo[2].foodTy
 
 // // Creating a book object
 // let book = {
-//     title: "The Great Gatsby",
-//     author: "F. Scott Fitzgerald",
+//     title: "Brave New World",
+//     author: "Aldous Huxley",
 //     pages: 180
 // };
 
 // // Modify the properties
-// book.title = "The Great Gatsby - Updated Edition";
-// book.pages = 200;
+// book.title = "Brave New World - Updated Edition";
+// book.pages = 300;
 
 // // Print the modified book properties
 // console.log("Book:");
@@ -67,13 +67,13 @@ let library = {
     name: "City Library",
     books: [
         { title: "1984", author: "George Orwell" },
-        { title: "To Kill a Mockingbird", author: "Harper Lee" },
-        { title: "Moby-Dick", author: "Herman Melville" }
+        { title: "Brave New World", author: "Aldous Huxley" },
+        { title: "Gone With The Wind", author: "Margaret Mitchell" }
     ]
 };
 
 // // Update the book list
-// library.books.push({ title: "The Catcher in the Rye", author: "J.D. Salinger" });
+// library.books.push({ title: "War and Peace", author: "Lev Tolstoi" });
 
 // // Print the library information
 // console.log("\nLibrary:");
@@ -85,17 +85,16 @@ let library = {
 
 // Create an object representing John with a list of books he has read
 let john = {
-    name: "John Doe",
+    name: "John Smith",
     readBooks: [
-        { title: "The Hobbit", author: "J.R.R. Tolkien" },
-        { title: "The Catcher in the Rye", author: "J.D. Salinger" },
-        { title: "Pride and Prejudice", author: "Jane Austen" }
+        { title: "1984", author: "George Orwell" },
+        { title: "Brave New World", author: "Aldous Huxley" },
+        { title: "Gone With The Wind", author: "Margaret Mitchell" }
     ]
 };
 
 // // Access and print the 2nd book read by John
-// let secondBookReadByJohn = john.readBooks[1];
-// console.log("\nJohn's 2nd Book:");
-// console.log(`Title: ${secondBookReadByJohn.title}`);
-// console.log(`Author: ${secondBookReadByJohn.author}`);
+let secondBookReadByJohn = john.readBooks[1];
+console.log(`Title: ${secondBookReadByJohn.title}`);
+console.log(`Author: ${secondBookReadByJohn.author}`);
 
