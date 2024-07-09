@@ -15,3 +15,5 @@ let firstBook = library.books[0];
 // Print the whole book object
 console.log("First Book Object:", firstBook);
 
+console.log(`First Book Object: ${library.books}`);
+

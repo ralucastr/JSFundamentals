@@ -25,21 +25,7 @@ message += "!";
 console.log(message); // "Hello, World!"
 
 
-// 3. Example of string concatenation using Template Literals (Backticks) in JavaScript
-
-// Define variables
-let firstName = "Jane";
-let lastName = "Doe";
-let age = 28;
-
-// Concatenate strings and variables using template literals
-let userDetails = `Name: ${firstName} ${lastName}, Age: ${age}`;
-
-// Output the concatenated string
-console.log(userDetails); // "Name: Jane Doe, Age: 28"
-
-
-// 4. Example of string concatenation using the concat() method in JavaScript
+// 3. Example of string concatenation using the concat() method in JavaScript
 
 // Define three strings
 let greeting = "Hello";
