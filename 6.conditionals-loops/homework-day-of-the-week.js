@@ -32,12 +32,13 @@ switch (dayNumber) {
 // else if
 if (dayNumber >= 1 && dayNumber <= 7) {
   if (dayNumber === 1) console.log('It is Monday, enjoy your week!');
-  if (dayNumber === 2) console.log('It is Tuesday, maybe have a nice day');
-  if (dayNumber === 3) console.log('It is Wednesday my dudes');
-  if (dayNumber === 4) console.log('It is Thursday, have fun');
-  if (dayNumber === 5) console.log('It is Friday, have a nice weekend');
-  if (dayNumber === 6) console.log('It is Saturday, no more jokes');
-  if (dayNumber === 7) console.log('It is Sunday, prepare for the next week');
+  else if (dayNumber === 2) console.log('It is Tuesday, maybe have a nice day');
+  else if (dayNumber === 3) console.log('It is Wednesday my dudes');
+  else if (dayNumber === 4) console.log('It is Thursday, have fun');
+  else if (dayNumber === 5) console.log('It is Friday, have a nice weekend');
+  else if (dayNumber === 6) console.log('It is Saturday, no more jokes');
+  else if (dayNumber === 7)
+    console.log('It is Sunday, prepare for the next week');
 } else {
   console.log("Invalid number, doesn't have any corresponding day of the week");
 }
