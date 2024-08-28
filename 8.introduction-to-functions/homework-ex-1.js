@@ -10,7 +10,8 @@ function checkNumber(num) {
 }
 
 // Check and log the result for 10, -5, and 0
-console.log(`10 is ${checkNumber(10)}.`); // Output: positive
+const ex1 = checkNumber(10);
+console.log(`10 is ${ex1}.`); // Output: positive
 console.log(`-5 is ${checkNumber(-5)}.`); // Output: negative
 console.log(`0 is ${checkNumber(0)}.`);   // Output: zero
 
