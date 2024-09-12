@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "target": "es6",   // JavaScript version to target
+      "module": "ES2020", 
+      "strict": true     // Enable strict type checking
+    }
+}
+  
